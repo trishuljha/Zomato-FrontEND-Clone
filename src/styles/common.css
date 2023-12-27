@@ -1,0 +1,35 @@
+.max-width{
+    max-width: 60%;
+    margin: 0px auto;
+}
+.absolute-center{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.cur-po{
+    cursor: pointer;
+}
+.collection-title{
+    font-size:30px;
+    color:var(--heading-text);
+    margin-bottom: 32px;
+    font-weight: 600;
+}
+.slick-prev:before, .slick-next:before {
+
+    color:gray;
+    
+   
+}
+.slick-prev:before,
+.slick-next:before {
+  color: gray !important; /* Set the color to gray */
+  /* Other styles for the arrows */
+}
+.left{
+    margin-right: 4px;
+}
+.golden{
+    background-color: rgb(238, 203, 4);
+}

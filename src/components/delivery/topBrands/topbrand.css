@@ -1,0 +1,35 @@
+.top-brands{
+    padding-top:30px;
+}
+.top-brands-cover{
+    height: 150px;
+    width: 150px;
+    background-color: var(--primary-bg);
+    box-shadow: var(--collection-shadow);
+    border: 0.5px solid var(--border-white);
+    border-radius: 50%;
+
+}
+.top-brands-image{
+    border-radius: inherit;
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+}
+.top-brands-time{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--gray);
+}
